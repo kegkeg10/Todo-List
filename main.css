@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    background-color: rgb(222, 193, 106);
+    padding: 60px;
+
+  }
+
+  .item {
+    font-size: 34px;
+    margin-bottom: 10px
+  }
+
+.item-description {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.item-completed:checked + .item-description {
+    background: #dddddd;
+    text-decoration: line-through;
+}
+
+#add {
+    padding:  14px 129px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #009578;
+    cursor: pointer;
+}
